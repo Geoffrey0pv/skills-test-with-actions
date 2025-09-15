@@ -1,4 +1,8 @@
-# This is a basic workflow to help you get started with Actions
+# .github/workflows/ci.yml
+
+# Este es el workflow ORIGINAL. 
+# Úsalo si corriges el error de estilo en tu archivo .md
+# lo cual es la mejor práctica.
 
 name: CI
 
@@ -29,5 +33,3 @@ jobs:
         run: |
           npm install remark-cli remark-preset-lint-consistent
           npx remark . --use remark-preset-lint-consistent --frail
-
-          
